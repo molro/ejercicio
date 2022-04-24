@@ -1,0 +1,23 @@
+{
+  "name": "cyberclick",
+  "version": "1.0.0",
+  "description": "Prueba para CyberClick",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molro/ejercicio.git"
+  },
+  "keywords": [
+    "Cyber",
+    "Click"
+  ],
+  "author": "Mauricio Olivares R",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/molro/ejercicio/issues"
+  },
+  "homepage": "https://github.com/molro/ejercicio#readme"
+}
