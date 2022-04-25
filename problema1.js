@@ -5,15 +5,15 @@ let a = 3;
 let b = 5;
 
 for (let i = 0; i < list.length; i++) { // Llenar el array como una matriz
-    list[i] = [i+1, i+1]
+    list[i] = {origin:i+1, verify:i+1}
 }
 
 for (let i = 0; i < list.length; i ++ ) {
-    if(multiplo(list[i][1],a) === 0) {
-        multiplo(list[i][1],b) === 0 ? list[i][1] = 'cyberclick' : list[i][1] = 'cyber'
+    if(multiplo(list[i].verify,a) === 0) {
+        multiplo(list[i].verify,b) === 0 ? list[i].verify = 'cyberclick' : list[i].verify = 'cyber'
     }
-    if(multiplo(list[i][1],b) === 0) {
-        multiplo(list[i][1],a) === 0 ? list[i][1] = 'cyberclick' : list[i][1] = 'click'
+    if(multiplo(list[i].verify,b) === 0) {
+        multiplo(list[i].verify,a) === 0 ? list[i].verify = 'cyberclick' : list[i].verify = 'click'
     }
 }
-console.log(list);
+console.table(list);
