@@ -29,19 +29,19 @@ Para ejecutar, debemos ingresar en el directorio y ejecutar los comandos desde a
 
 **Problema 1**
 - Archivo principal: problema1.js. Ejecuta el programa. 
-      - Dependencias: multiplos.js (Verifica si el número 'a' es múltiplo de 'b') 
-- 
+- Dependencias: multiplos.js (Verifica si el número 'a' es múltiplo de 'b') 
+
 **Problema 2** 
 - Archivo principal: problema2.js. Ejecuta el programa.  
-      - Dependencias: 
-      - readfile.js -> Lee el input.txt, lo transforma de texto a un array legible por Javascript.  
-      - cleanPass -> Lee el array de contraseñas obtenidos con readfile.js y lo estructura en key, pass y state.  
-        - key: Contiene la clave para verificar la contraseñas.  
-        - pass: contiene la contraseñas como string.  
-        - state: Por defecto, se inicia en no verificada.  
-      - \Validators\ -> Contiene y ejecuta las políticas de contraseñas. 
-        -  rule1.js -> Las políticas del problema 2.1.  
-        -  rule2.js -> Las políticas del problema 2.2.  
+- Dependencias: 
+- readfile.js -> Lee el input.txt, lo transforma de texto a un array legible por Javascript.  
+- cleanPass -> Lee el array de contraseñas obtenidos con readfile.js y lo estructura en key, pass y state.  
+- key: Contiene la clave para verificar la contraseñas.  
+- pass: contiene la contraseñas como string.  
+- state: Por defecto, se inicia en no verificada.  
+- \Validators\ -> Contiene y ejecuta las políticas de contraseñas. 
+-  rule1.js -> Las políticas del problema 2.1.  
+-  rule2.js -> Las políticas del problema 2.2.  
 ## Authors
 👤 **Mauricio**
 
