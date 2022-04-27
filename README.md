@@ -15,7 +15,7 @@
 - Clonar Repositorio: [https://github.com/molro/ejercicio.git]  
 
 **Descargar** 
-- Descargar : []  
+- Descargar : [https://github.com/molro/ejercicio/archive/refs/heads/main.zip]  
 
 ## Ejecución  
 Para ejecutar, debemos ingresar en el directorio y ejecutar los comandos desde allí.   
