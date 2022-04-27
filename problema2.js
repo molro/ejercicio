@@ -1,6 +1,9 @@
+const {join} = require ('path')
+
 const {readPass} = require('./utils/readfile')
 const {cleanPass} = require('./utils/cleanPass')
-const {join} = require ('path')
+const { validator1 } = require('./utils/validators/rule1');
+const { validator2 } = require('./utils/validators/rule2');
 
 const path = join(__dirname, 'src');
 const file = 'input.txt';
@@ -8,16 +11,6 @@ const file = 'input.txt';
 const savedPass = readPass(path,file);
 const listPass = cleanPass(savedPass)
 
+validator1(listPass)
 
-let arrPrueba = [{ 
-    key: [ '2', '13', 'j' ],
-    pass: [
-    'j', 'j', 'j', 'j',
-    'j', 'j', 'j', 'b',
-    'j', 'j', 'j', 'j',
-    'j']
-    }]
-let e = verificar(arrPrueba)
-console.log(e)
-// console.log(listPass)
-// console.log(passKey)
+validator2(listPass)

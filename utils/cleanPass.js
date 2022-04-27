@@ -7,7 +7,8 @@ const cleanPass = (savedPass) => {
         const cleanPassword = (arr) => (String(arr[i][1]).trim())
         listPass[i] = {
             key: (cleanKey(passTo).toString()).split(','),
-            pass: (cleanPassword(passTo)).split('')
+            pass: (cleanPassword(passTo)).split(''),
+            state: 'No verificada'
         }
     } 
     return listPass
