@@ -12,7 +12,7 @@
 
 ##Como utilizar  
 **Clonar**  
-- Clonar Repositorio: []  
+- Clonar Repositorio: [https://github.com/molro/ejercicio.git]  
 
 **Descargar** 
 - Descargar : []  
