@@ -10,7 +10,7 @@
 **Necesario utilizar NPM**  
 - Como Instalar : [https://docs.npmjs.com/cli/v8/configuring-npm/install]
 
-##Como utilizar  
+## Como utilizar  
 **Clonar**  
 - Clonar Repositorio: [https://github.com/molro/ejercicio.git]  
 
