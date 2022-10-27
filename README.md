@@ -44,7 +44,7 @@ Para ejecutar, debemos ingresar en el directorio y ejecutar los comandos desde a
 ## Authors
 👤 **Mauricio**
 
-- Github: [@molivaresr] (https://github.com/molivaresr)
+- Github: [@molro] (https://github.com/molro)
 
 ## Dame tu apoyo
 
