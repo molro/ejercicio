@@ -1,4 +1,4 @@
-const multiplo = require('./helpers/multiplos')
+const multiplo = require('./utils/multiplos')
 
 const list = new Array(100) // Crear nuevo Array de 100 Elementos
 let a = 3;
