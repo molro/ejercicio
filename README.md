@@ -38,7 +38,7 @@ Para ejecutar, debemos ingresar en el directorio y ejecutar los comandos desde a
   - key: Contiene la clave para verificar la contraseñas.  
   - pass: contiene la contraseñas como string.  
   - state: Por defecto, se inicia en no verificada.  
-  - **\Validators\ -> Contiene y ejecuta las políticas de contraseñas.** 
+  - **\validators\ -> Contiene y ejecuta las políticas de contraseñas.** 
   -  rule1.js -> Las políticas del problema 2.1.  
   -  rule2.js -> Las políticas del problema 2.2.  
 ## Authors
