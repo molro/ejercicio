@@ -1,7 +1,6 @@
 <h1 align="center"> Prueba Junior Developer👋</h1>
 
-> Ejercicio creado para puesto de Jr Backend Developer. 
-> Ejercicio resuelto con Javascript
+> Ejercicio creado para puesto de Jr Backend Developer, resuelto con Javascript
 
 ## Instrucciones de instalación
 **Necesario Instalar NODEJS**  
